@@ -1,16 +1,23 @@
-:root {
+/* :root {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
+} */
+
+.customCard {
+  padding: 32px 32px 56px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
 }
 
 .card {
-  float: left;
-  margin: 10px 10px 60px 50px;
   position: relative;
   width: 220px;
-  height: 300px;
+  height: 281px;
   perspective: 100000px; /*카드가 뒤집어질때 투시를 주기위한 1에 가까울수록 과감한 투시.*/
 }
 
