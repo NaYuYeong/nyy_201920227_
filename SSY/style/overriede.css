@@ -42,14 +42,14 @@
 
 /*앞뒷면 모두 hover시 회전 이벤트를 주어야 카드 한장이 맞물려서 회전하는 느낌을 줄 수 있다.*/
 /*card를 hover할 경우 클래스 front에 적용할 속성*/
-.card:active .front {
+.card:hover .front {
   transform: rotateY(-180deg); /*카드가 Y축을 기준으로 회전 -180도 회전*/
   transition: all 1s ease;
   z-index: 0; /*카드가 뒤집어지면 뒷면이 앞면보다 튀어나오게끔 z값을 낮춘다.*/
 }
 
 /*card를 hover할 경우 클래스 back에 적용할 속성*/
-.card:active .back {
+.card:hover .back {
   transform: rotateY(-180deg); /*카드가 Y축을 기준으로 회전 -180도 회전*/
   transition: all 1s ease;
   z-index: 1; /*카드가 뒤집어지면 뒷면이 앞면보다 튀어나오게끔 z값을 높인다.*/
