@@ -6,7 +6,7 @@
 } */
 
 .customCard {
-  padding: 32px 32px 56px;
+  padding: 32px 32px 150px;
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
